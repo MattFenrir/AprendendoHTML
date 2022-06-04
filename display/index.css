@@ -93,7 +93,8 @@ main ul li{
 main ul li div{
     position: absolute;
     top: 20px;
-    display: none; /* visibility: hidden; */
+    display: none;
+    visibility: hidden;
     width: 400px;
     height: 400px;
 }
@@ -110,5 +111,9 @@ main ul li div img{ /* Se tivesse imagen no lugar da lista*/
     a div ficará visível / terá um display 
  */
 main ul li:hover div{
-    display: block; /* visibility: visible; */
+    display: block; 
+    visibility: visible;
+    background-color: black;
+    color: white;
+    width: 300px;
 }
