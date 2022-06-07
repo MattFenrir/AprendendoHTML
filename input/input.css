@@ -22,6 +22,7 @@ section div input {
     border: transparent;
     color: white;
     padding: 2px;
+    outline: transparent;
 }
 
 section div .material-icons {    
